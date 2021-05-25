@@ -5,7 +5,7 @@
 > /criar - Cria um novo arquivo de texto. Método: PUT. Parâmetro: conteudo<br/>
 > /abrir/{id} - Abre um novo arquivo, retornando o conteúdo. Método: GET. Parâmetro: id<br/>
 > /deletar/{id} - Deleta um arquivo com base no seu id. Método: GET. Parâmetro: id<br/>
-> /atualizar - Atualiza o arquivo. Método: GET. Parâmetros: id, conteudo<br/>
+> /atualizar - Atualiza o arquivo. Método: PUT. Parâmetros: id, conteudo<br/>
 </p>
 Todas as bibliotecas utilizadas foram incorporadas do próprio Laravel, sem a necessidade de baixar terceiras.<br>
 Versão do Laravel: 6
