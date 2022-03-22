@@ -2,7 +2,7 @@
 
 <h2>Rotas</h2>
 <p>
-> /criar - Cria um novo arquivo de texto. Método: PUT. Parâmetro: conteudo<br/>
+> /criar - Cria um novo arquivo de texto. Método: POST. Parâmetro: conteudo<br/>
 > /abrir/{id} - Abre um novo arquivo, retornando o conteúdo. Método: GET. Parâmetro: id<br/>
 > /deletar/{id} - Deleta um arquivo com base no seu id. Método: GET. Parâmetro: id<br/>
 > /atualizar - Atualiza o arquivo. Método: PUT. Parâmetros: id, conteudo<br/>
